@@ -3,7 +3,7 @@
   gap: 30px;
 }
 .graphics .graphics-image {
-  width: 50%;
+  width: 40%;
 }
 .graphics .graphics-image img {
   width: 100%;
@@ -44,6 +44,11 @@
     width: 85%;
   }
   .graphics .graphics-image {
-    width: 70%;
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  .graphics .graphics-image {
+    width: 80%;
   }
 }
